@@ -4,7 +4,7 @@ from mysql.connector import Error
 
 app = Flask(__name__)
 
-def create_connection():
+def create_connection(): 
     """ Create a database connection to the MySQL database """
     conn = None
     try:
